@@ -1,0 +1,103 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage[frenchb]{babel}
+
+%https://perso.imt-mines-albi.fr/~gaborit/latex/latex-in-french.html
+%\usepackage[english,francais]{babel}
+%\usepackage[english,french]{babel}
+
+\usepackage[frenchb]{babel}
+
+%https://tex.stackexchange.com/questions/248788/the-very-basics-of-french-accents
+%\documentclass[12pt]{amsart}
+
+\usepackage[utf8]{inputenc}
+
+%entiers sets https://texblog.org/2007/08/27/number-sets-prime-natural-integer-rational-real-and-complex-in-latex/
+%\usepackage{amsfonts} 
+% or 
+\usepackage{amssymb}
+
+%Majuscules accentuees https://www.xm1math.net/doculatex/caracteres_speciaux.html
+\usepackage{eurosym}
+\usepackage{systeme}
+\usepackage{enumerate}
+%numerotation https://www.xm1math.net/doculatex/structure.html
+\renewcommand{\thesubsection}{\Roman{subsection}}
+
+\begin{document}
+Hello world \LaTeX
+
+Sommaire + index
+%https://perso.imt-mines-albi.fr/~gaborit/latex/latex-in-french.html
+%\renewcommand{\contentsname}{Sommaire}
+
+
+\part{Équations diophantiennes du
+%
+1\ier{}  degré $a \cdot x+b \cdot y=c$. Autres exemples d'équations diophantiennes.}
+
+\textbf{Déf 1}
+On appelle équation diophantienne à \textit{n} inconnues, une équation du type $P(Y_{1},....Y_{n})=0$ avec
+%https://tex.stackexchange.com/questions/261693/latex-element-of-with-two-strokes-%E2%8B%B9
+
+$P \in \mathbb{Z}[X_{1}...X_{n}]$. On cherche les solutions dans
+%
+
+
+$\mathbb{Z}^{n}$.
+\subsection{Équations diophantiennes linéaires}
+%systeme d equations https://kogler.wordpress.com/2008/03/21/latex-multiline-equations-systems-and-matrices/
+%https://en.wikibooks.org/wiki/LaTeX/Advanced_Mathematics
+% $a_{11}  \cdot x_{i} + ... + z a_{1m}  \cdot x_{m} = b_{1}$
+\[\begin{cases} a = 2 \\  c = 3 \\ d = 5 \end{cases}\]
+
+
+%Ia
+\subsubsection{Équations diophantiennes du $1^{er}$ degré à 2 inconnues $a \cdot x+b \cdot y=c$ (*1) .}
+fgfgfggf
+
+
+
+\textbf{Prop 1}
+On appelle équation diophantienne à \textit{n} inconnues, une équation du type $P(Y_{1},....Y_{n})=0$Une condition nécessaire et suffisanted'existence d'au moins 1 solution de (*1) est pgcd(a,b) divise c.
+
+
+\textbf{Théorème de Bezout}
+a,b sont 2 entiers. a et b sont premiers entre eux ssi il existe (u,v) $\in \mathbb{Z}$
+
+\textbf{Prop 2}
+
+\textbf{Méthodes de résolution}
+
+
+%Ib
+\subsubsection{Systèmes d'équations diophantiennes linéaires}
+Soit (m,n) $\in \mathbb{Z}$
+
+\begin{enumerate}
+        \item Résoudre le système (S) :  \systeme{7x-6y=12,5x+3y=11}
+       \item Résoudre le système (S) :  \systeme{7x-6y=12,5x+3y=11}
+\end{enumerate}
+
+
+%II
+\subsection{Équations diophantiennes et décomposition en facteurs premiers}
+
+%III
+\subsection{Équations diophantiennes et corps de nombres quadratiques}
+\textbf{Équation de Fermat pour n=3}
+
+
+%IV
+\subsection{Équations diophantiennes et fractions continues}
+
+
+
+
+
+\url{https://linuxconfig.org}
+
+%https://www.ljll.math.upmc.fr/hecht/ftp/old/InfoBase-2005-06/latex/DOC/LaTex-initiation.pdf (notes de bas de pages + marges)
+\footnote{Written by Peter MOUEZA}
+\end{document}
